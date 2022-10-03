@@ -216,6 +216,12 @@ footer {
     .feature {
         margin-top: 75px;
     }
+
+    .feature .container h2 {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+    }
     .card {
         margin: 15px;
     }
@@ -265,6 +271,13 @@ footer {
     .feature {
         margin-top: 75px;
     }
+
+    .feature .container h2 {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+    }
+
     .card {
         margin: 18px 10px;
     }
@@ -306,6 +319,11 @@ footer {
     }
     .feature {
         margin-top: 75px;
+    }
+    .feature .container h2 {
+        display: flex;
+        flex: 1;
+        justify-content: center;
     }
     .card {
         margin: 18px 10px;
