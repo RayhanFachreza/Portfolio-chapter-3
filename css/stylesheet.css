@@ -1,0 +1,312 @@
+body {
+    width: 100%;
+    color: black;
+    font-family: 'Heebo';
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-style: normal;
+    padding: 18px;
+    z-index: 10;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    flex: 1;
+}
+.menu {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.topmenu {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.topmenu a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    padding-left: 33px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.hero {
+    color: #21243D;
+    font-style: normal;
+    padding-top: 190px;
+    position: relative;
+}
+
+.profiletext h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: left;
+}
+
+.profiletext p { 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 25px;
+    padding: 0px;
+}
+
+.profiletext a {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.profiletext .btn {
+    width: 208px;
+    height: 47px;
+    background: #FF6464;
+    border-radius: 2px;
+    margin-top: 25px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+
+.herothumbnail {
+    display: flex ;
+    justify-content: center
+}
+
+
+.feature {
+    background-color: #21243D;
+    padding-bottom: 112px;
+}
+
+
+
+.feature h2 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 19px;
+}
+
+.card {
+    padding-top: 140px;
+    padding: 24px;
+    
+}
+
+.card-body h5 {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    margin-bottom: 17px;
+}
+
+.card-body p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 17px;
+}
+
+
+.card-body .btn {
+    height: 47px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    background: #FF6464;
+    border-radius: 2px;
+    text-align: center;
+    padding: auto;
+}
+
+
+footer {
+    height: 177px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialmedia {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.socialmedia a {
+    padding: 17px;
+}
+
+.footerbawah {
+    margin-top: 26px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+
+@media (max-width:540px ) {
+    body { 
+        width: 100%;
+    }
+    .logo, .topmenu {
+        display: none;
+    }
+    .menu-icon {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+    }    
+    .hero .row  {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .profiletext h1, .profiletext p {
+        text-align: center;
+    }
+    .profiletext.btn { 
+        margin: auto;
+    }
+    .menu-icon a img {
+        width: 100px;
+    }
+    .menu-icon img { 
+        width: 30px; 
+        height: 30px;
+    }
+    .hero {
+        padding-top: 50px;
+    }
+    .hero a {
+        margin: 27px auto;
+    }
+    
+    .herothumbnail img{
+        width: 65%;
+        margin-bottom: 44px;
+    }
+    .feature {
+        margin-top: 75px;
+    }
+    .card {
+        margin: 20px;
+    }
+} 
+
+@media (max-width:768px) {
+    body { 
+        width: 100%;
+    }
+    .logo, .topmenu {
+        display: none;
+    }
+    .menu-icon {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+    }    
+    .hero .row  {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .profiletext h1, .profiletext p {
+        text-align: center;
+    }
+    .profiletext.btn { 
+        margin: auto;
+    }
+    .menu-icon a img {
+        width: 100px;
+    }
+    .menu-icon img { 
+        width: 30px; 
+        height: 30px;
+    }
+    .hero {
+        padding-top: 100px;
+    }
+    .hero a {
+        margin: 27px auto;
+    }
+    
+    .herothumbnail img{
+        width: 50%;
+        margin-bottom: 44px;
+    }
+    .feature {
+        margin-top: 75px;
+    }
+    .card {
+        margin: 18px;
+    }
+    
+}
+
+@media (max-width:991px) {
+    body { 
+        width: 100%;
+    }
+    .hero .row  {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .profiletext h1, .profiletext p {
+        text-align: center;
+    }
+    .profiletext.btn { 
+        margin: auto;
+    }
+    .menu-icon a img {
+        width: 100px;
+    }
+    .menu-icon img { 
+        width: 30px; 
+        height: 30px;
+    }
+    .hero {
+        padding-top: 150px;
+    }
+    .hero a {
+        margin: 27px auto;
+    }
+    
+    .herothumbnail img{
+        width: 50%;
+        margin-bottom: 44px;
+    }
+    .feature {
+        margin-top: 75px;
+    }
+    .card {
+        margin: 18px;
+    }
+}
